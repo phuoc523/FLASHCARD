@@ -4,13 +4,10 @@ import com.flashcard.dao.StatisticsDAO;
 import com.flashcard.model.Statistics;
 
 public class StatisticsService {
-    private final StatisticsDAO statisticsDAO = new StatisticsDAO();
 
-    public Statistics getStatistics(int userId) {
-        return statisticsDAO.findByUserId(userId).orElse(new Statistics(userId, 0, 0, 0));
-    }
+    private StatisticsDAO dao = new StatisticsDAO();
 
-    public void saveStatistics(Statistics statistics) {
-        statisticsDAO.save(statistics);
+    public Statistics getStats(int userId) {
+        return dao.getStatistics(userId);
     }
 }

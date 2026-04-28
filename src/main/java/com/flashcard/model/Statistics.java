@@ -1,33 +1,16 @@
 package com.flashcard.model;
 
 public class Statistics {
-    private int userId;
     private int totalCards;
     private int learnedCards;
-    private int studySessions;
+    private int reviewsToday;
 
-    public Statistics() {}
+    public int getTotalCards() { return totalCards; }
+    public void setTotalCards(int totalCards) { this.totalCards = totalCards; }
 
-    public Statistics(int userId, int totalCards, int learnedCards, int studySessions) {
-        this.userId = userId;
-        this.totalCards = totalCards;
-        this.learnedCards = learnedCards;
-        this.studySessions = studySessions;
-    }
+    public int getLearnedCards() { return learnedCards; }
+    public void setLearnedCards(int learnedCards) { this.learnedCards = learnedCards; }
 
-    public int getUserId() {
-        return userId;
-    }
-
-    public int getTotalCards() {
-        return totalCards;
-    }
-
-    public int getLearnedCards() {
-        return learnedCards;
-    }
-
-    public int getStudySessions() {
-        return studySessions;
-    }
+    public int getReviewsToday() { return reviewsToday; }
+    public void setReviewsToday(int reviewsToday) { this.reviewsToday = reviewsToday; }
 }

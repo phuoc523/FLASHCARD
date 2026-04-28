@@ -1,15 +1,24 @@
 package com.flashcard.ui;
 
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import com.flashcard.model.Statistics;
+import com.flashcard.service.StatisticsService;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class StatisticsFrame extends JFrame {
-    public StatisticsFrame() {
-        setTitle("Flashcard App - Statistics");
-        setSize(700, 520);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+    public StatisticsFrame(int userId) {
+        setTitle("Statistics");
+        setSize(300, 200);
         setLocationRelativeTo(null);
 
-        add(new JLabel("Statistics placeholder"));
+        StatisticsService service = new StatisticsService();
+        Statistics stats = service.getStats(userId);
+
+        JLabel total = new JLabel("Total Cards: " + stats.getTotalCards());
+
+        setLayout(new FlowLayout());
+        add(total);
     }
 }

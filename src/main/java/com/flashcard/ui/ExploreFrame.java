@@ -1,15 +1,14 @@
 package com.flashcard.ui;
 
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.*;
 
 public class ExploreFrame extends JFrame {
+
     public ExploreFrame() {
-        setTitle("Flashcard App - Explore");
-        setSize(700, 520);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setTitle("Explore");
+        setSize(300, 200);
         setLocationRelativeTo(null);
 
-        add(new JLabel("Explore placeholder"));
+        add(new JLabel("Explore feature coming soon!"));
     }
 }
