@@ -6,63 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a885861-440d-4099-a41a-6a91c40c00e4" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/algorithm/SM2Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/algorithm/SM2Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/CardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/CardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/DeckDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/DeckDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/StatisticsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/StatisticsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/StudyLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/StudyLogDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/StudyProgressDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/StudyProgressDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/main/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/main/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/model/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/model/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/model/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/model/StudyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/model/StudyLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/model/StudyProgress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/model/StudyProgress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/service/AIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/service/AIService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/service/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/service/CardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/service/DeckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/service/DeckService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/service/StudyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/service/StudyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/CardManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/CardManagerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/DashboardFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/DashboardFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/DeckManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/DeckManagerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/RegisterFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/RegisterFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/StudyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flashcard/ui/StudyFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/algorithm/SM2Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/algorithm/SM2Algorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/CardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/CardDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/DeckDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/DeckDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/StatisticsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/StatisticsDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/StudyLogDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/StudyLogDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/StudyProgressDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/StudyProgressDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/main/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/main/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/model/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/model/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/model/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/model/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/model/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/model/Statistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/model/StudyLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/model/StudyLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/model/StudyProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/model/StudyProgress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/service/AIService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/service/AIService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/service/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/service/CardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/service/CardService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/service/DeckService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/service/DeckService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/service/StatisticsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/service/StatisticsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/service/StudyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/service/StudyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/AIChatFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/AIChatFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/CardManagerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/CardManagerFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/DashboardFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/DashboardFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/DeckManagerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/DeckManagerFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/ExploreFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/ExploreFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/LoginFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/LoginFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/RegisterFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/RegisterFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/SettingsFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/SettingsFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/StatisticsFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/flashcard/ui/StatisticsFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flashcard/ui/StudyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/flashcard.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/flashcard.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,21 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/FLASHCARD1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.33727035&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/FLASHCARD1",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.splitter.proportion": "0.33727035"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flashcard.main.MainApp" />
@@ -169,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777352275972</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1777863667113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777863667113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
