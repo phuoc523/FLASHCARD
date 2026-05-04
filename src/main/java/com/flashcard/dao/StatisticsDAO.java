@@ -16,7 +16,9 @@ public class StatisticsDAO {
             Statement st = conn.createStatement();
 
             ResultSet rs = st.executeQuery(
-                    "SELECT COUNT(*) AS total FROM cards WHERE user_id = " + userId
+                    "SELECT COUNT(*) AS total FROM cards c " +
+                            "JOIN decks d ON c.deck_id = d.id " +
+                            "WHERE d.user_id = " + userId
             );
 
             if (rs.next()) {

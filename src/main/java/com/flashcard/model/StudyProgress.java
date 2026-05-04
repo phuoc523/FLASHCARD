@@ -1,39 +1,49 @@
 package com.flashcard.model;
 
+import java.time.LocalDate;
+
 public class StudyProgress {
-    private int id;
-    private int userId;
-    private int cardId;
-    private int reviewCount;
+
+    private int progressID;
+    private int userID;
+    private int flashcardID;
+
+    private int repetition;
+    private int interval;
     private double easeFactor;
 
-    public StudyProgress() {}
+    private LocalDate nextReviewDate;
+    private LocalDate lastReviewed;
 
-    public StudyProgress(int id, int userId, int cardId, int reviewCount, double easeFactor) {
-        this.id = id;
-        this.userId = userId;
-        this.cardId = cardId;
-        this.reviewCount = reviewCount;
-        this.easeFactor = easeFactor;
+    public StudyProgress() {
+        this.repetition = 0;
+        this.interval = 0;
+        this.easeFactor = 2.5;
+        this.nextReviewDate = LocalDate.now();
+        this.lastReviewed = LocalDate.now();
     }
 
-    public int getId() {
-        return id;
-    }
+    public int getProgressID() { return progressID; }
+    public void setProgressID(int progressID) { this.progressID = progressID; }
 
-    public int getUserId() {
-        return userId;
-    }
+    public int getUserID() { return userID; }
+    public void setUserID(int userID) { this.userID = userID; }
 
-    public int getCardId() {
-        return cardId;
-    }
+    public int getFlashcardID() { return flashcardID; }
+    public void setFlashcardID(int flashcardID) { this.flashcardID = flashcardID; }
 
-    public int getReviewCount() {
-        return reviewCount;
-    }
+    public int getRepetition() { return repetition; }
+    public void setRepetition(int repetition) { this.repetition = repetition; }
 
-    public double getEaseFactor() {
-        return easeFactor;
-    }
+    public int getInterval() { return interval; }
+    public void setInterval(int interval) { this.interval = interval; }
+
+    public double getEaseFactor() { return easeFactor; }
+    public void setEaseFactor(double easeFactor) { this.easeFactor = easeFactor; }
+
+    public LocalDate getNextReviewDate() { return nextReviewDate; }
+    public void setNextReviewDate(LocalDate nextReviewDate) { this.nextReviewDate = nextReviewDate; }
+
+    public LocalDate getLastReviewed() { return lastReviewed; }
+    public void setLastReviewed(LocalDate lastReviewed) { this.lastReviewed = lastReviewed; }
 }

@@ -1,35 +1,22 @@
 package com.flashcard.model;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDate;
 
 public class Deck {
     private int id;
     private String name;
     private String description;
-    private List<Card> cards = new ArrayList<>();
 
-    public Deck() {}
+    // Getters & Setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
-    public Deck(int id, String name, String description) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public List<Card> getCards() {
-        return cards;
-    }
+    public String getDescription() { return description; }
+    public void setDescription(String description) { this.description = description; }
+    private int userId;
+    public int getUserId()           { return userId; }
+    public void setUserId(int userId){ this.userId = userId; }
 }
